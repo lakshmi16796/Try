@@ -9,7 +9,7 @@ pipeline {
         
         script {
 	 		       
-		env.getEnvironment().each { name, value -> println "Name: $name -> Value $value" }
+		env.getEnvironment().each { name, value -> println "Name: $name -> $value" }
 	
 	}  
     }
